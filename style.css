@@ -84,16 +84,28 @@ body {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-.rodape-link {
-  color: #bbbbbb;
-  text-decoration: none;
+.rodape-esquerda {
+  display: flex;
+  align-items: center;
+  gap: 6px;
   font-size: 14px;
-  transition: color 0.2s ease, text-shadow 0.2s ease;
+  color: #bbbbbb;
 }
 
-.rodape-link:hover {
+/* BOTÃO VINÍCIUS */
+.rodape-botao {
+  padding: 6px 14px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 14px;
   color: #00ff88;
-  text-shadow: 0 0 8px rgba(0, 255, 136, 0.6);
+  border: 1px solid rgba(0, 255, 136, 0.4);
+  transition: all 0.25s ease;
+}
+
+.rodape-botao:hover {
+  background: rgba(0, 255, 136, 0.15);
+  box-shadow: 0 0 12px rgba(0, 255, 136, 0.6);
 }
 
 .ano {
@@ -126,7 +138,11 @@ body {
 
   .rodape {
     flex-direction: column;
-    gap: 10px;
+    gap: 12px;
     text-align: center;
+  }
+
+  .rodape-esquerda {
+    justify-content: center;
   }
 }
