@@ -1,21 +1,116 @@
-/* TROCADOR DE PÁGINA */
-.trocador {
-  margin: 35px 0 15px;
-  text-align: center;
-  font-size: 16px;
-  color: #d0d0d0; /* mesma cor do texto normal */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.trocador .pagina {
+body {
+  min-height: 100vh;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  color: #e0e0e0;
+
+  background:
+    linear-gradient(rgba(0,0,0,0.88), rgba(0,0,0,0.95)),
+    url("assets/textura.png");
+
+  background-size: cover;
+  background-position: center;
+}
+
+/* TOPO */
+.topo {
+  padding: 90px 40px 60px;
+  text-align: center;
+}
+
+.topo h1 {
+  font-size: 64px;
+  color: #00ff88;
+}
+
+.topo h2 {
+  margin-top: 12px;
+  font-size: 26px;
+  color: #bdbdbd;
+}
+
+/* EXPERIÊNCIA */
+.experiencia {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 50px 40px;
+  background: rgba(255,255,255,0.04);
+  border-radius: 20px;
+}
+
+.experiencia h3 {
+  font-size: 36px;
+  color: #00ff88;
+  margin-bottom: 20px;
+}
+
+.experiencia p {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #d0d0d0;
+  text-align: justify;
+}
+
+.experiencia strong {
+  color: #00ff88;
+}
+
+/* TROCADOR DE PÁGINA */
+.trocador {
+  margin: 30px 0 15px;
+  text-align: center;
+  font-size: 16px;
+  color: #d0d0d0;
+}
+
+.trocador a {
+  color: #d0d0d0;
+  text-decoration: none;
   margin: 0 6px;
 }
 
-.trocador .seta {
-  color: #d0d0d0;
-  text-decoration: none;
-  margin-left: 6px;
+.trocador a:hover {
+  color: #ffffff;
 }
 
-.trocador .seta:hover {
+.pagina {
+  margin: 0 4px;
+}
+
+/* RODAPÉ */
+.rodape {
+  margin-top: auto;
+  padding: 18px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(0,0,0,0.7);
+}
+
+.texto-rodape {
+  color: #8f8f8f;
+  font-size: 14px;
+}
+
+.link-vinicius {
+  margin-left: 6px;
+  color: #d9d9d9;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.link-vinicius:hover {
   color: #ffffff;
+}
+
+.ano {
+  font-size: 14px;
+  color: #7a7a7a;
 }
