@@ -28,13 +28,11 @@ body {
 .topo h1 {
   font-size: 64px;
   color: #00ff88;
-  letter-spacing: 4px;
 }
 
 .topo h2 {
   margin-top: 12px;
   font-size: 26px;
-  font-weight: 400;
   color: #bdbdbd;
 }
 
@@ -43,7 +41,7 @@ body {
   max-width: 900px;
   margin: 0 auto;
   padding: 50px 40px;
-  background: rgba(255, 255, 255, 0.04);
+  background: rgba(255,255,255,0.04);
   border-radius: 20px;
 }
 
@@ -64,28 +62,27 @@ body {
   color: #00ff88;
 }
 
-/* PAGINAÇÃO */
-.paginacao {
-  margin-top: 40px;
+/* BOTÃO DE PÁGINA */
+.troca-pagina {
+  margin-top: 45px;
   text-align: center;
 }
 
-.btn-pagina {
-  display: inline-block;
-  padding: 14px 30px;
-  border-radius: 30px;
+.botao-pagina {
+  padding: 14px 34px;
+  border-radius: 8px;
+  background: #1f1f1f;
+  color: #ffffff;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 15px;
+  border: 1px solid #3a3a3a;
 
-  color: #0b0b0b;
-  background: #00ff88;
-
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  transition: background 0.2s ease, transform 0.2s ease;
 }
 
-.btn-pagina:hover {
+.botao-pagina:hover {
+  background: #2a2a2a;
   transform: translateY(-2px);
-  box-shadow: 0 0 20px rgba(0,255,136,0.6);
 }
 
 /* RODAPÉ */
@@ -96,8 +93,8 @@ body {
   justify-content: space-between;
   align-items: center;
 
-  background: rgba(0, 0, 0, 0.7);
-  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(0,0,0,0.7);
+  border-top: 1px solid rgba(255,255,255,0.08);
 }
 
 .texto-rodape {
@@ -107,7 +104,7 @@ body {
 
 .link-vinicius {
   margin-left: 6px;
-  color: #d9d9d9;
+  color: #d9d9d9;       /* COR ORIGINAL DO PERFIL */
   font-size: 14px;
   text-decoration: none;
 }
