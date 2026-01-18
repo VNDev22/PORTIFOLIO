@@ -1,1 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  color: #e0e0e0;
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.88),
+      rgba(0, 0, 0, 0.95)
+    ),
+    url("assets/textura.png");
+  background-size: cover;
+  background-position: center;
+}
 
+.topo {
+  padding: 90px 40px 60px;
+  text-align: center;
+}
+.topo h1 {
+  font-size: 64px;
+  color: #00ff88;
+  letter-spacing: 4px;
+}
+.topo h2 {
+  margin-top: 12px;
+  font-size: 26px;
+  font-weight: 400;
+  color: #bdbdbd;
+}
+
+.experiencia {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 50px 40px;
+  background: rgba(255, 255, 255, 0.04);
+  border-radius: 20px;
+}
+.experiencia h3 {
+  font-size: 36px;
+  color: #00ff88;
+  margin-bottom: 20px;
+}
+.experiencia p {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #d0d0d0;
+  text-align: justify;
+}
+.experiencia strong {
+  color: #00ff88;
+}
+
+.navegacao-paginas {
+  position: fixed;
+  bottom: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  z-index: 100;
+}
+
+.seta-esquerda {
+  font-size: 18px;
+  color: #888888;
+  font-weight: normal;
+}
+
+.link-page2 {
+  color: #b8b8b8;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: normal;
+  transition: color 0.3s ease;
+}
+
+.link-page2:hover {
+  color: #e0e0e0;
+}
+
+.rodape {
+  margin-top: auto;
+  padding: 18px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.7);
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.texto-rodape {
+  color: #8f8f8f;
+  font-size: 14px;
+}
+
+.link-vinicius {
+  margin-left: 6px;
+  color: #d9d9d9;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.link-vinicius:visited,
+.link-vinicius:hover,
+.link-vinicius:active {
+  text-decoration: none;
+}
+
+.link-vinicius:hover {
+  color: #ffffff;
+}
+
+.ano {
+  font-size: 14px;
+  color: #7a7a7a;
+}
+
+@media (max-width: 768px) {
+  .topo {
+    padding: 60px 20px 40px;
+  }
+  .topo h1 {
+    font-size: 42px;
+    letter-spacing: 2px;
+  }
+  .topo h2 {
+    font-size: 20px;
+  }
+  
+  .experiencia {
+    margin: 0 20px;
+    padding: 30px 25px;
+  }
+  .experiencia h3 {
+    font-size: 28px;
+  }
+  .experiencia p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  .navegacao-paginas {
+    bottom: 70px;
+  }
+  
+  .rodape {
+    flex-direction: column;
+    gap: 10px;
+    padding: 15px 20px;
+  }
+  
+  .rodape-esquerda {
+    text-align: center;
+  }
+}
