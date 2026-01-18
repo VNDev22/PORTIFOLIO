@@ -55,7 +55,6 @@ body {
   font-size: 18px;
   line-height: 1.8;
   color: #d0d0d0;
-  text-align: justify;
 }
 
 .experiencia strong {
@@ -63,25 +62,21 @@ body {
 }
 
 /* TROCADOR DE PÁGINA */
-.trocador {
+.page-switch {
   margin: 30px 0 15px;
   text-align: center;
   font-size: 16px;
   color: #d0d0d0;
 }
 
-.trocador a {
+.page-switch a {
   color: #d0d0d0;
   text-decoration: none;
-  margin: 0 6px;
-}
-
-.trocador a:hover {
-  color: #ffffff;
-}
-
-.pagina {
   margin: 0 4px;
+}
+
+.page-switch a:hover {
+  color: #ffffff;
 }
 
 /* RODAPÉ */
