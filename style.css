@@ -89,23 +89,19 @@ body {
   align-items: center;
   gap: 6px;
   font-size: 14px;
-  color: #bbbbbb;
+  color: #aaaaaa;
 }
 
-/* BOTÃO VINÍCIUS */
-.rodape-botao {
-  padding: 6px 14px;
-  border-radius: 20px;
-  text-decoration: none;
+/* LINK VINÍCIUS (cinza claro, sem underline) */
+.rodape-link {
+  color: #cfcfcf;              /* cinza mais claro */
+  text-decoration: none;       /* remove linha embaixo */
   font-size: 14px;
-  color: #00ff88;
-  border: 1px solid rgba(0, 255, 136, 0.4);
-  transition: all 0.25s ease;
+  transition: color 0.2s ease;
 }
 
-.rodape-botao:hover {
-  background: rgba(0, 255, 136, 0.15);
-  box-shadow: 0 0 12px rgba(0, 255, 136, 0.6);
+.rodape-link:hover {
+  color: #ffffff;              /* clareia no hover */
 }
 
 .ano {
@@ -138,7 +134,7 @@ body {
 
   .rodape {
     flex-direction: column;
-    gap: 12px;
+    gap: 10px;
     text-align: center;
   }
 
