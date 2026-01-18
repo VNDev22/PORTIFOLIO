@@ -8,6 +8,8 @@ body {
   min-height: 100vh;
   font-family: 'Segoe UI', Arial, sans-serif;
   color: white;
+  display: flex;
+  flex-direction: column;
 
   /* Fundo gamer com textura */
   background:
@@ -47,7 +49,7 @@ body {
   max-width: 900px;
   margin: 0 auto;
   padding: 50px 40px;
-  background: rgba(255, 255, 255, 0.03);
+  background: rgba(255, 255, 255, 0.04);
   border-radius: 20px;
   backdrop-filter: blur(10px);
   box-shadow: 0 0 40px rgba(0, 0, 0, 0.6);
@@ -64,10 +66,28 @@ body {
   font-size: 18px;
   line-height: 1.8;
   color: #dddddd;
+  text-align: justify;
 }
 
-.experiencia strong {
-  color: #ffffff;
+.experiencia p strong {
+  color: #00ff88;
+}
+
+/* RODAPÉ */
+.rodape {
+  margin-top: auto;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  color: #aaaaaa;
+  background: rgba(0, 0, 0, 0.6);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.rodape .data {
+  color: #888888;
 }
 
 /* RESPONSIVO */
@@ -81,7 +101,7 @@ body {
   }
 
   .experiencia {
-    margin: 0 20px;
+    margin: 20px;
     padding: 35px 25px;
   }
 
@@ -91,5 +111,11 @@ body {
 
   .experiencia p {
     font-size: 16px;
+  }
+
+  .rodape {
+    flex-direction: column;
+    gap: 8px;
+    text-align: center;
   }
 }
