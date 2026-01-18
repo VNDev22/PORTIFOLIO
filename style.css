@@ -12,10 +12,7 @@ body {
   color: #e0e0e0;
 
   background:
-    linear-gradient(
-      rgba(0, 0, 0, 0.88),
-      rgba(0, 0, 0, 0.95)
-    ),
+    linear-gradient(rgba(0,0,0,0.88), rgba(0,0,0,0.95)),
     url("assets/textura.png");
 
   background-size: cover;
@@ -67,6 +64,30 @@ body {
   color: #00ff88;
 }
 
+/* PAGINAÇÃO */
+.paginacao {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.btn-pagina {
+  display: inline-block;
+  padding: 14px 30px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-size: 16px;
+
+  color: #0b0b0b;
+  background: #00ff88;
+
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn-pagina:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0 20px rgba(0,255,136,0.6);
+}
+
 /* RODAPÉ */
 .rodape {
   margin-top: auto;
@@ -79,28 +100,18 @@ body {
   border-top: 1px solid rgba(255, 255, 255, 0.08);
 }
 
-/* TEXTO NORMAL DO RODAPÉ (MAIS ESCURO) */
 .texto-rodape {
-  color: #8f8f8f; /* cinza escuro */
+  color: #8f8f8f;
   font-size: 14px;
 }
 
-/* LINK VINÍCIUS (CLARAMENTE MAIS CLARO) */
 .link-vinicius {
   margin-left: 6px;
-  color: #d9d9d9;        /* cinza mais claro */
+  color: #d9d9d9;
   font-size: 14px;
-  text-decoration: none; /* SEM underline */
-}
-
-/* SEM underline EM QUALQUER ESTADO */
-.link-vinicius:visited,
-.link-vinicius:hover,
-.link-vinicius:active {
   text-decoration: none;
 }
 
-/* HOVER SUTIL */
 .link-vinicius:hover {
   color: #ffffff;
 }
