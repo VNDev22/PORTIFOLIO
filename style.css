@@ -122,22 +122,17 @@ body {
   font-weight: normal;
 }
 
-/* LINK PARA PAGE2 */
+/* LINK PARA PAGE2 - MESMO ESTILO MAS MAIS CLARO */
 .link-page2 {
-  color: #00ff88;
-  font-size: 32px;
+  color: #b8b8b8;
+  font-size: 18px;
   text-decoration: none;
-  padding: 10px 20px;
-  background: rgba(0, 255, 136, 0.1);
-  border-radius: 10px;
-  border: 2px solid #00ff88;
-  transition: all 0.3s ease;
-  display: inline-block;
+  font-weight: normal;
+  transition: color 0.3s ease;
 }
 
 .link-page2:hover {
-  background: rgba(0, 255, 136, 0.2);
-  transform: scale(1.1);
+  color: #e0e0e0;
 }
 
 /* RESPONSIVO */
