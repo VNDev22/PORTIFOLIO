@@ -1,0 +1,58 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+  height: 100vh;
+  background: linear-gradient(135deg, #0f0f0f, #1a1a1a);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  color: white;
+}
+
+/* Container central */
+.container {
+  text-align: center;
+  padding: 40px 60px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 40px rgba(0, 255, 136, 0.15);
+}
+
+/* Título principal */
+h1 {
+  font-size: 64px;
+  color: #00ff88;
+  letter-spacing: 3px;
+  margin-bottom: 12px;
+  text-shadow: 0 0 20px rgba(0, 255, 136, 0.5);
+}
+
+/* Subtítulo */
+h2 {
+  font-size: 26px;
+  font-weight: 400;
+  color: #cccccc;
+}
+
+/* Responsivo (celular) */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 42px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  .container {
+    padding: 30px 40px;
+  }
+}
