@@ -9,7 +9,7 @@ body {
   font-family: Arial, sans-serif;
   display: flex;
   flex-direction: column;
-  color: #e0e0e0;
+  color: #d0d0d0;
 
   background:
     linear-gradient(rgba(0,0,0,0.88), rgba(0,0,0,0.95)),
@@ -43,30 +43,26 @@ body {
   border-radius: 20px;
 }
 
-/* TROCADOR DE PÁGINA */
+/* TROCADOR */
 .trocador {
-  margin: 35px 0 15px;
+  margin: 30px 0 15px;
   text-align: center;
   font-size: 16px;
+  color: #d0d0d0;
 }
 
-.seta {
-  color: #cfcfcf;
+.trocador a {
+  color: #d0d0d0;          /* MESMA COR DO TEXTO */
   text-decoration: none;
-  margin: 0 12px;
+  margin: 0 8px;
 }
 
-.seta:hover {
+.trocador a:hover {
   color: #ffffff;
 }
 
 .pagina {
-  color: #9a9a9a;
-}
-
-.desativado {
-  color: #555;
-  margin: 0 12px;
+  margin: 0 4px;
 }
 
 /* RODAPÉ */
