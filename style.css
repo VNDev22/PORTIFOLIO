@@ -9,11 +9,11 @@ body {
   font-family: 'Segoe UI', Arial, sans-serif;
   color: white;
 
-  /* FUNDO COM TEXTURA */
+  /* Fundo gamer com textura */
   background:
     linear-gradient(
-      rgba(0, 0, 0, 0.75),
-      rgba(0, 0, 0, 0.9)
+      rgba(0, 0, 0, 0.85),
+      rgba(0, 0, 0, 0.95)
     ),
     url("assets/textura.png");
 
@@ -24,28 +24,54 @@ body {
 
 /* TOPO */
 .topo {
-  padding: 80px 40px;
+  padding: 90px 40px 60px;
   text-align: center;
 }
 
-/* TÍTULO */
 .topo h1 {
   font-size: 64px;
   color: #00ff88;
   letter-spacing: 4px;
-  margin-bottom: 10px;
-  text-shadow: 0 0 20px rgba(0, 255, 136, 0.6);
+  text-shadow: 0 0 25px rgba(0, 255, 136, 0.6);
 }
 
-/* SUBTÍTULO */
 .topo h2 {
+  margin-top: 12px;
   font-size: 26px;
   font-weight: 400;
-  color: #d0d0d0;
+  color: #cfcfcf;
+}
+
+/* EXPERIÊNCIA */
+.experiencia {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 50px 40px;
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.6);
+}
+
+.experiencia h3 {
+  font-size: 36px;
+  color: #00ff88;
+  margin-bottom: 20px;
+  text-shadow: 0 0 15px rgba(0, 255, 136, 0.5);
+}
+
+.experiencia p {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #dddddd;
+}
+
+.experiencia strong {
+  color: #ffffff;
 }
 
 /* RESPONSIVO */
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .topo h1 {
     font-size: 42px;
   }
@@ -54,7 +80,16 @@ body {
     font-size: 20px;
   }
 
-  .topo {
-    padding: 60px 20px;
+  .experiencia {
+    margin: 0 20px;
+    padding: 35px 25px;
+  }
+
+  .experiencia h3 {
+    font-size: 28px;
+  }
+
+  .experiencia p {
+    font-size: 16px;
   }
 }
