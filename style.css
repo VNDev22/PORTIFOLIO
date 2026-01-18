@@ -111,16 +111,15 @@ body {
   transform: translateX(-50%);
   display: flex;
   align-items: center;
-  gap: 15px;
+  gap: 5px;
   z-index: 100;
 }
 
 /* SETA ESQUERDA - CINZA E MENOR */
 .seta-esquerda {
-  font-size: 20px;
+  font-size: 18px;
   color: #888888;
   font-weight: normal;
-  padding: 10px 20px;
 }
 
 /* LINK PARA PAGE2 */
