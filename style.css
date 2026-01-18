@@ -1,92 +1,21 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  min-height: 100vh;
-  font-family: Arial, sans-serif;
-  display: flex;
-  flex-direction: column;
-  color: #d0d0d0;
-
-  background:
-    linear-gradient(rgba(0,0,0,0.88), rgba(0,0,0,0.95)),
-    url("assets/textura.png");
-
-  background-size: cover;
-}
-
-/* TOPO */
-.topo {
-  padding: 90px 40px 60px;
-  text-align: center;
-}
-
-.topo h1 {
-  color: #00ff88;
-  font-size: 64px;
-}
-
-.topo h2 {
-  color: #bdbdbd;
-  font-size: 26px;
-}
-
-/* EXPERIÊNCIA */
-.experiencia {
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 50px 40px;
-  background: rgba(255,255,255,0.04);
-  border-radius: 20px;
-}
-
-/* TROCADOR */
+/* TROCADOR DE PÁGINA */
 .trocador {
-  margin: 30px 0 15px;
+  margin: 35px 0 15px;
   text-align: center;
   font-size: 16px;
+  color: #d0d0d0; /* mesma cor do texto normal */
+}
+
+.trocador .pagina {
+  margin: 0 6px;
+}
+
+.trocador .seta {
   color: #d0d0d0;
-}
-
-.trocador a {
-  color: #d0d0d0;          /* MESMA COR DO TEXTO */
   text-decoration: none;
-  margin: 0 8px;
+  margin-left: 6px;
 }
 
-.trocador a:hover {
+.trocador .seta:hover {
   color: #ffffff;
-}
-
-.pagina {
-  margin: 0 4px;
-}
-
-/* RODAPÉ */
-.rodape {
-  margin-top: auto;
-  padding: 18px 40px;
-  display: flex;
-  justify-content: space-between;
-  background: rgba(0,0,0,0.7);
-}
-
-.texto-rodape {
-  color: #8f8f8f;
-}
-
-.link-vinicius {
-  color: #d9d9d9;
-  text-decoration: none;
-}
-
-.link-vinicius:hover {
-  color: #fff;
-}
-
-.ano {
-  color: #7a7a7a;
 }
